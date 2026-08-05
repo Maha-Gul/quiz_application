@@ -1,6 +1,6 @@
 # menu and getting user input
 
-from data import load_questions
+from quiz import display_score, start_quiz
 
 
 print(f"Welcome to the Quiz Application!")
@@ -13,16 +13,9 @@ while user_choice.lower() not in ["s", "q"]:
 if user_choice.lower() == "s":
     print("Quiz started...")
     # start_quiz()
+    start_quiz()
+    display_score()
 
-    title, questions = load_questions("questions.json")
-    print(f"Quiz Title: {title}")
-    n = 9
-    for question in questions:
-        print(f"Question {len(questions)-n}: {question['question']}")
-        print(f"Options: {question['options']}")
-        print(f"Answer: {question['correct_answer']}")
-        print(f"Explanation: {question['explanation']}")
-        n -= 1
 elif user_choice.lower() == "q":
     print("Quiz Closed...")
 
