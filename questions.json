@@ -1,0 +1,126 @@
+{
+    "quiz_title": "Python and Object-Oriented Programming Quiz",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the output of print(type([])) in Python?",
+            "options": [
+                "<class 'tuple'>",
+                "<class 'array'>",
+                "<class 'list'>",
+                "<class 'set'>"
+            ],
+            "correct_answer": "<class 'list'>",
+            "explanation": "Square brackets [] are used to define a list in Python."
+        },
+        {
+            "id": 2,
+            "question": "Which of the following operators is used for floor division in Python?",
+            "options": [
+                "/",
+                "//",
+                "%",
+                "**"
+            ],
+            "correct_answer": "//",
+            "explanation": "The // operator divides two numbers and rounds down the result to the nearest integer."
+        },
+        {
+            "id": 3,
+            "question": "How do you add an element to the end of a list?",
+            "options": [
+                "list.add(element)",
+                "list.push(element)",
+                "list.append(element)",
+                "list.insert(element)"
+            ],
+            "correct_answer": "list.append(element)",
+            "explanation": "The append() method modifies the list in place by adding an item to the very end."
+        },
+        {
+            "id": 4,
+            "question": "What is the correct syntax to output 'Hello World' in Python?",
+            "options": [
+                "echo('Hello World')",
+                "print('Hello World')",
+                "p('Hello World')",
+                "System.out.println('Hello World')"
+            ],
+            "correct_answer": "print('Hello World')",
+            "explanation": "Python uses the built-in print() function to output text to the console."
+        },
+        {
+            "id": 5,
+            "question": "What does the 'len()' function do?",
+            "options": [
+                "Returns the memory size of an object",
+                "Returns the number of items in an object",
+                "Returns the data type of an object",
+                "Converts an object to a string"
+            ],
+            "correct_answer": "Returns the number of items in an object",
+            "explanation": "The len() function returns the length (number of items) of an object like a list, string, or dictionary."
+        },
+        {
+            "id": 6,
+            "question": "Which keyword is used to create a class in Python?",
+            "options": [
+                "className",
+                "struct",
+                "def",
+                "class"
+            ],
+            "correct_answer": "class",
+            "explanation": "Python uses the 'class' keyword to define a new user-defined object type."
+        },
+        {
+            "id": 7,
+            "question": "What is the output of the expression: 2 ** 3?",
+            "options": [
+                "6",
+                "8",
+                "9",
+                "5"
+            ],
+            "correct_answer": "8",
+            "explanation": "The ** operator calculates power (exponentiation), so 2 ** 3 is 2 cubed, which equals 8."
+        },
+        {
+            "id": 8,
+            "push_options": false,
+            "question": "Which of these collections defines a dictionary?",
+            "options": [
+                "{\"apple\", \"banana\"}",
+                "[\"apple\", \"banana\"]",
+                "(\"apple\", \"banana\")",
+                "{\"name\": \"John\", \"age\": 36}"
+            ],
+            "correct_answer": "{\"name\": \"John\", \"age\": 36}",
+            "explanation": "Dictionaries are written with curly brackets and contain key-value pairs separated by colons."
+        },
+        {
+            "id": 9,
+            "question": "How do you start a multi-line comment in Python?",
+            "options": [
+                "/*",
+                "//",
+                "#",
+                "\"\"\""
+            ],
+            "correct_answer": "\"\"\"",
+            "explanation": "Python does not have a formal multi-line comment token, but multi-line string literals (triple quotes) are widely used for this purpose."
+        },
+        {
+            "id": 10,
+            "question": "Which method removes all whitespace from the beginning and end of a string?",
+            "options": [
+                "trim()",
+                "strip()",
+                "clean()",
+                "replace()"
+            ],
+            "correct_answer": "strip()",
+            "explanation": "The strip() method returns a copy of the string with both leading and trailing characters (whitespace by default) removed."
+        }
+    ]
+}
